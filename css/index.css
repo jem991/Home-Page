@@ -1,0 +1,27 @@
+﻿body {
+	background-color: #ccc;
+	background-image: url(../images/background.jpg);
+	background-position: 1800px 1400px;
+}
+#kutular {
+	margin:auto auto;
+	margin-top:50px;
+	width:900px;
+}
+.kutu {
+	background:#ccc;
+	max-height:auto;
+	width:190px;
+	float:left;
+	margin-left:10px;
+	border-radius:0px;
+	transition:height 5s, background 2s, border-radius 2s;
+}
+.kutu:hover {
+	background:#fff;
+	border-radius:15px;
+	height:400px;
+}
+#kutuici {
+    margin:10px;
+}
